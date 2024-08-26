@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <title>SEO-20 New Agency React JS Website</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <meta name="title" content="" />
+  <link type="image/x-icon" href="images/fav-icon.png" rel="icon">
+
+  <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/font-awesome.min.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/bizord.css">
+
+
+</head>
+
+
+<body class="demo_advisor">
+  <noscript>SEO-20 New Agency React JS Website</noscript>
+  <div id="root"></div>
+
+
+
+  <script src="%PUBLIC_URL%/js/jquery.min.js"></script>
+  <script src="%PUBLIC_URL%/js/popper.min.js"></script>
+  <script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>
+  <script src="%PUBLIC_URL%/js/jquery.magnific-popup.min.js"></script>
+  <script src="%PUBLIC_URL%/js/owl.carousel.min.js"></script>
+  <script src="%PUBLIC_URL%/js/viewportchecker.js"></script>
+  <script src="%PUBLIC_URL%/js/custom.js"></script>
+  <script>
+    jQuery(document).ready(function () {
+      jQuery('.fadeIn,.bounceInLeft,.lightSpeedIn,.bounceInUp,.bounceInDown,.bounceInRight,.rotateInUpLeft,.zoomIn,.rubberBand,.rollIn,.rollOut,.zoomInDown,.fadeInDownBig,.fadeInUpBig,.fadeInLeftBig,.fadeInRightBig,.fadeInLeft,.fadeInRight,.fadeInDown,.flipInX,.rotateInDownRight,.rotateInDownLeft,.float_left_right_two,.fadeInUp,.flash,.fadeinleftbig,.slideInUp').addClass("hidden").
+
+        viewportChecker({
+          classToAdd: 'visible animated',
+          offset: 50
+        });
+    });            
+  </script>
+  <script>
+    $('.nav-link').on('click', function (e) {
+      $('a.nav-link').removeClass('active');
+      $(this).addClass('active');
+      if ($(window).width() < 991) {
+        $(".navbar-toggler").click();
+      }
+    });
+  </script>
+
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>
